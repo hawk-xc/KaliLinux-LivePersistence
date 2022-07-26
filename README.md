@@ -30,9 +30,11 @@ Ingat!, gunakan tombol panah pada keyboard, kursor anda tidak dapat berjalan dis
 disini setelah proses disk management diatas, disk akan menghasilkan system file /dev/sdb3
 </br>
 Nice, buat system type menggunakan perintah dibawah pada disk anda
+
 ```bash
 sudo mkfs.ext4 -L persistence /dev/sdb3
 ```
+
 ```bash
 sudo e2label /dev/sdb3 persistence
 ```
