@@ -32,6 +32,8 @@ disini setelah proses disk management diatas, disk akan menghasilkan system file
 Nice, buat system type menggunakan perintah dibawah pada disk anda
 ```bash
 sudo mkfs.ext4 -L persistence /dev/sdb3
+```
+```bash
 sudo e2label /dev/sdb3 persistence
 ```
 create folder lalu mount file system ke folder yang dibuat. kita juga akan umount disk untuk melihat perubahan
