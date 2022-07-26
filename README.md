@@ -22,11 +22,11 @@ sudo cfdisk /dev/sda
 lakukan pengecekan pada disk size, dimana disk sda/ diatas memiliki size 298Gb. ini tentunya bukan flashdisk kita, jangan menyerah!. lakukan pengecekan lagi secara berkala, tambahan sdb/ ,sdc/ , sdd/ dan seterusnya sampai menemukan ukuran size disk yang sesuai diflashdisk anda!. setelah beberapa percobaan saya menemukan disk file system yang sesuai dengan size disk yang saya gunakan, yaitu 14Gb [/dev/sdb].
 </br>
 Ingat!, gunakan tombol panah pada keyboard, kursor anda tidak dapat berjalan disesi disini!. masuk ke Free Space dibagian paling bawah.
-- pilih New [enter]
-- masukkan size untuk persistence disk [enter]
-- pilih primary [enter]
-- pilih write [enter]
-- typing 'yes' [enter]
+- pilih New <b>[enter]</b>
+- masukkan size untuk persistence disk <b>[enter]</b>
+- pilih primary <b>[enter]</b>
+- pilih write <b>[enter]</b>
+- typing 'yes' <b>[enter]</b>
 disini setelah proses disk management diatas, disk akan menghasilkan system file /dev/sdb3
 </br>
 Nice, buat system type menggunakan perintah dibawah pada disk anda
