@@ -43,7 +43,8 @@ create folder lalu mount file system ke folder yang dibuat. kita juga akan umoun
 sudo mkdir -p /mnt/mydat
 sudo mount /dev/sdb3 /mnt/mydat
 cd /mnt/mydat
-echo "/ union" > persistence.conf
+sudo echo "/ union" > persistence.conf
+cd /
 sudo umount /dev/sdb3
 ```
 
